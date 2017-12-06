@@ -5,7 +5,53 @@
 @import "promo";
 @import "title";
 @import "button";
-@import "intro";
+@import "header";
 @import "icon";
 @import "substrate";
 @import "features";
+@import "img";
+
+hr {
+    border: none; /* Убираем границу для браузера Firefox */
+    color: red; /* Цвет линии для остальных браузеров */
+    background-color: red; /* Цвет линии для браузера Firefox и Opera */
+    height: 5px; /* Толщина линии */
+    width: 40px;
+}
+
+.circle {
+    margin: 20px 5px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background-color: #6c757d;
+}
+
+    .circle_active {
+        background-color: #ffc107;
+    }
+
+.portfolio_tag {
+    margin-right: 20px;
+}
+
+.row_nowrap {
+    flex-wrap: nowrap;
+}
+
+.portfolio_slides {
+    margin-top: 20px;
+}
+
+.absolute-arrow {
+    position: absolute;
+}
+
+    .absolute-arrow_clients {
+        margin-top: 20px;
+        margin-left: 460px;
+    }
+
+    .absolute-arrow_slides {
+        margin-top: 20px;
+    }
