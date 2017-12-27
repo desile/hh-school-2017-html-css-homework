@@ -12,6 +12,7 @@
 @import "substrate";
 @import "features";
 @import "text";
+@import "articles";
 @import "img";
 @import "circle";
 @import "underline";
@@ -38,53 +39,4 @@
 
 .portfolio {
 
-}
-.row-eq-height{
-    display: flex;
-}
-
-.person-line{
-    border: none;
-    width: 60px;
-    height: 4px;
-    background-color: red;
-    margin-bottom: 0;
-    margin-top: 0;
-}
-
-.person-card{
-    background-color: #2e3133;
-    color: whitesmoke;
-    padding: 30px;
-}
-
-.person-card__description{
-    margin-bottom: 30px;
-}
-
-.person-info{
-    display: inline-block;
-    margin-left: 15px;
-    font-weight: bold;
-    vertical-align: top;
-}
-
-.person-name{
-    line-height: 1;
-    margin-bottom: 10px;
-}
-
-.person-date{
-    line-height: 1;
-    margin-bottom: 0;
-}
-
-@avatar_size: 50px;
-.avatar{
-    display: inline-block;
-    width: @avatar_size;
-    height: @avatar_size;
-    background: url(../img/annie.png) no-repeat;
-    background-size: contain;
-    border-radius: @avatar_size/2;
 }
