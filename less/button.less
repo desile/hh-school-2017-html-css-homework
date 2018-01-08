@@ -3,12 +3,8 @@
 
 .button {
     display: inline-block;
-    padding: 10px 80px;
-    text-transform: lowercase;
     font-size: 18px;
     font-weight: bold;
-    color: @color-text;
-    border: 2px solid @color-text;
     .transition(all 0.2s);
 
     &:hover, &:active, &:focus {
@@ -17,3 +13,17 @@
         text-decoration: none;
     }
 }
+
+    .promo__button {
+        padding: 10px 80px;
+        text-transform: lowercase;
+        color: @color-text;
+        border: 2px solid @color-text;
+    }
+
+    .feedback__button {
+        color: inherit;
+        border: none;
+        background: none;
+        text-transform: uppercase;
+    }
